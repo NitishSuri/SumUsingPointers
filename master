@@ -1,0 +1,20 @@
+# SumUsingPointers
+29th program on c
+#include<stdio.h>
+#include<iostream.h>
+int main()
+{
+
+int a,b,sum=0,*p,*q;
+printf("enter the first no \n");
+scanf("%d",&a);
+printf("enter the second no \n");
+scanf("%d",&b);
+p=&a;
+q=&b;
+sum=*p + *q;
+printf("sum is %d \n",sum);
+return (0);
+}
+
+
